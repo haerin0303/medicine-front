@@ -1,2 +1,15 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<nav>
+    <ul>
+        <li>
+            <a href="/search">검색하기</a>
+        </li>
+        <li>
+            <a href="/scan">스캔하기</a>
+        </li>
+        <li>
+            <a href="/caution">주의 사항</a>
+        </li>
+    </ul>
+</nav>
+
+<h1>Home Page</h1>
