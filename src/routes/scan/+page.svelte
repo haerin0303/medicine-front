@@ -1,4 +1,4 @@
-<nav>
+<!-- <nav>
     <ul>
         <li>
             <a href="/">메인화면</a>
@@ -9,4 +9,5 @@
     </ul>
 </nav>
 
-<h1>Camera Page</h1>
+<h1>Camera Page</h1> -->
+

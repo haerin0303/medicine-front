@@ -36,3 +36,47 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+
+```mermaid
+erDiagram
+    USER ||--|{ MEDICINE_USER : search
+    MEDICINE ||--|{ MEDICINE_USER : find
+    MEDICINE {
+        number medicine-standard-code PK 
+        string name
+        string picture
+        number dosage
+        string effect
+        string side-effect
+        string classify
+        string color
+        string campanyid FK
+    }
+    USER {
+        uuid userid PK
+        string name
+        number age
+        string gen
+    }
+    MEDICINE_USER {
+        number medicine-standard-code PK, FK
+        uuid userid PK, FK
+    }
+    MEDICINE ||--|{ MEDICINE_CLASSIFY : categoried-in
+    CLASSIFY ||--|{ MEDICINE_CLASSIFY : categories
+    MEDICINE_CLASSIFY {
+        number medicine-standered-code PK, FK
+        number categoryid PK, FK
+    }
+    CLASSIFY {
+        number categoryid PK
+        string category-name
+        string description
+    }
+    COMPANY ||--|{ MEDICINE : made-by
+    COMPANY {
+        number companyid
+        string company-name
+        string phone-number
+    }
+```
