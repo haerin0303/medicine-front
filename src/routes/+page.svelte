@@ -81,7 +81,7 @@
     .line {
         margin-top: 20px;
         padding: 3px 10px 3px 10px;
-        background-color: white;
+        background-color: white;    
     }
     .ex {
         font-weight: bold;

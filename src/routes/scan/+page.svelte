@@ -1,13 +1,6 @@
-<!-- <nav>
-    <ul>
-        <li>
-            <a href="/">메인화면</a>
-        </li>
-        <li>
-            <a href="/scan/camera/TF2">TF2</a>
-        </li>
-    </ul>
-</nav>
-
-<h1>Camera Page</h1> -->
-
+<script>
+    //@ts-nocheck
+</script>
+<!-- camera page -->
+<h1>카메라 화면</h1>
+<button type="button" onclick="location.href='http://localhost:5173/scan/camera/TF2/division'" class="a">분류 탭으로 가기</button>

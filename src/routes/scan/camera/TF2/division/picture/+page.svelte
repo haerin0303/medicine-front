@@ -1,26 +1,19 @@
-<!-- <nav>
-    <ul>
-        <li>
-           <a href="/scan/camera/TF2/division">분류</a>
-        </li>
-    </ul>
-</nav>
-
-<h1>Picture</h1> -->
-
+<script>
+    //@ts-nocheck
+</script>
 <body>
     <div>
         <div class="bg-pink title">Web Name</div>
     </div>
     <div class="chartA">
-        <div class="chart bg-pink"><a href="/scan/camera/TF2/division/picture" class="white-link">사진</a></div>
-        <div class="chart bg-wpink"><a href="/scan/camera/TF2/division/many" class="white-link">복용량</a></div>
-        <div class="chart bg-wpink"><a href="/scan/camera/TF2/division/effect" class="white-link">효과</a></div>
-        <div class="chart bg-wpink"><a href="/scan/camera/TF2/division/side-effect" class="white-link">부작용</a></div>
+        <div class="chart bg-wpink"><button type="button" onclick="location.href='http://localhost:5173/scan/camera/TF2/division/picture'" class="a bg-pink">사진</button></div>
+        <div class="chart bg-wpink"><button type="button" onclick="location.href='http://localhost:5173/scan/camera/TF2/division/many'" class="a bg-wpink">복용량</button></div>
+        <div class="chart bg-wpink"><button type="button" onclick="location.href='http://localhost:5173/scan/camera/TF2/division/effect'" class="a bg-wpink">효과</button></div>
+        <div class="chart bg-wpink"><button type="button" onclick="location.href='http://localhost:5173/scan/camera/TF2/division/side-effect'" class="a bg-wpink">부작용</button></div>
         <div class="chart bg-wpink"><a href="/scan/camera/TF2/division/else" class="white-link">기타</a></div>
     </div>
     <div class="box"></div>
-    <div class="back"><a href="/scan/camera/TF2/division" class="black-link">돌아가기</a></div> 
+    <div class="back"><button type="button" onclick="location.href='http://localhost:5173/scan/camera/TF2/division'" class="a bg-pink">돌아가기</button></div>
 </body>
 
 <style>
@@ -60,9 +53,10 @@
         margin-top: 40px;
     }
     .box {
-        margin-top: 30px;
-        width: 100%;
-        height: 400px;
+        margin: 0 auto;
+        margin-top: 50px;
+        width: 800px;
+        height: 350px;
         border: 2px solid black;
     }
     .back {
@@ -80,11 +74,15 @@
     .white-link {
         color: white;
         text-decoration: none;
-    }
-    .black-link {
-        font-weight: bold;
         font-size: 20px;
-        color: black;
-        text-decoration: none;
+    }
+    .a {
+        width: 100%;
+        height: 40px;
+        border-radius: 10px;
+        border: none;
+        font-weight: bold;
+        color: white;
+        font-size: 20px;
     }
 </style>

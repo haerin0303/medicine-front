@@ -1,24 +1,14 @@
-<!-- <nav>
-    <ul>
-        <li>
-            <a href="/scan/camera">카메라 화면으로 되돌아가기</a>
-        </li>
-        <li>
-            <a href="/scan/camera/TF2/division">분류</a>
-        </li>
-    </ul>
-</nav>
-
-<h1>TF2(참/거짓 확인 여부 2)</h1> -->
-
+<script>
+    // @ts-nocheck
+</script>
 <body>
     <div>
         <div class="bg-pink title">Web Name</div>
     </div>
     <div class="box"></div>
     <div class="TF2">
-        <div class="TF margin-left"><a href="/scan/camera/TF2/division" class="white-link">맞습니다</a></div>
-        <div class="TF"><a href="/scan/camera" class="white-link">아닙니다</div>
+        <div class="TF margin-left"><div class="TF margin-left"><button type="button" onclick="location.href='http://localhost:5173/scan/camera/TF2/division/picture'" class="a">맞습니다</button></div></div>
+        <div class="TF"><div class="TF margin-left"><button type="button" onclick="location.href='http://localhost:5173/scan/camera/TF2/division/picture'" class="a">아닙니다</button></div>
     </div>
 </body>
 
@@ -42,14 +32,13 @@
     }
     .TF  {
         display: inline-block;
-        background-color: rgba(245, 183, 177, 1);
         font-size: 25px;
         font-weight: bold;
         width: 150px;
         text-align: center;
         border-radius: 5px;
         height: 35px;
-        margin-top: 35px;
+        margin-top: 18px;
     }
     .TF2 {
         display: block;
@@ -59,8 +48,13 @@
     .margin-left {
         margin-right: 50px;
     }
-    .white-link {
-        color: black;
-        text-decoration: none;
+    .a {
+        width: 150px;
+        height: 30px;
+        font-size: 20px;
+        font-weight: bold;
+        border: none;
+        background-color: rgba(245, 183, 177, 1);
+        border-radius: 10px;
     }
 </style>
