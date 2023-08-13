@@ -21,9 +21,16 @@
     let value = '';
     let value1 = '';
 
-    function click() {
-      console("Hello World");
-    }  
+    import one from "./images/1.png";
+    import two from "./images/2.png";
+    import three from "./images/3.png";
+    import four from "./images/4.png";
+    import five from "./images/5.png";
+    import six from "./images/6.png";
+    import seven from "./images/7.png";
+    import eight from "./images/8.png";
+    import nine from "./images/9.png";
+
 </script>
 
 <div>
@@ -42,15 +49,15 @@
             <th><input bind:value={value1} placeholder="뒷면 문자열" class="search_bar"></th>
         </tr>
         <tr style="cursor: pointer;">
-            <td class="shape">원형</td>
-            <td class="shape">타원형</td>
-            <td class="shape">장방형</td>
-            <td class="shape">반원형</td>
-            <td class="shape">마름모</td>
-            <td class="shape">삼각형</td>
-            <td class="shape">사각형</td>
-            <td class="shape">오각형</td>
-            <td class="shape">육각형</td>
+            <td class="shape"><img src="{one}" alt="download icon" width="100%" height="100%">원형</td>
+            <td class="shape"><img src="{two}" alt="download icon" width="100%" height="100%">타원형</td>
+            <td class="shape"><img src="{three}" alt="download icon" width="100%" height="100%">장방형</td>
+            <td class="shape"><img src="{four}" alt="download icon" width="100%" height="100%">반원형</td>
+            <td class="shape"><img src="{five}" alt="download icon" width="100%" height="100%">마름모</td>
+            <td class="shape"><img src="{six}" alt="download icon" width="100%" height="100%">삼각형</td>
+            <td class="shape"><img src="{seven}" alt="download icon" width="100%" height="100%">사각형</td>
+            <td class="shape"><img src="{eight}" alt="download icon" width="100%" height="100%">오각형</td>
+            <td class="shape"><img src="{nine}" alt="download icon" width="100%" height="100%">육각형</td>
         </tr>
         <tr class="top">
             {#each arr as v}
@@ -124,7 +131,9 @@
         height: 100px;
         margin: 0 auto;
         margin-top: 20px;
-        line-height: 170px;
+    }
+    .shape.clicked {
+        background-color: red;
     }
     .top {
         margin-top: 40px;
@@ -148,7 +157,7 @@
     .color.clicked{
         display: inline-flex;
         color: white;
-        background-color: black;
+        background-color: aqua;
     }
     .red {
         background-color: rgb(255, 100, 100);
