@@ -1,5 +1,6 @@
 <script>
     //@ts-nocheck
+    
 </script>
 <!-- camera page -->
 <h1>카메라 화면</h1>
