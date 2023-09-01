@@ -1,0 +1,42 @@
+export interface iPill{
+    body:{
+        pageNo:number;
+        totalCount:number;
+        numOfRows:number;
+        items:{
+            BIZRNO:string;
+            CHANGE_DATE:string;
+            CHART:string;
+            CLASS_NAME:string;
+            CLASS_NO:string;
+            COLOR_CLASS1:string;
+            COLOR_CLASS2:string;
+            DRUG_SHAPE:string;
+            EDI_CODE:string;
+            ENTP_NAME:string;
+            ENTP_SEQ:string;
+            ETC_OTC_NAME:string;
+            FORM_CODE_NAME:string;
+            IMG_REGIST_TS:string;
+            ITEM_ENG_NAME:string;
+            ITEM_IMAGE:string;
+            ITEM_NAME:string;
+            ITEM_PERMIT_DATE:string;
+            ITEM_SEQ:string;
+            LENG_LONG:string;
+            LENG_SHORT:string;
+            LINE_BACK:string;
+            LINE_FRONT:string;
+            MARK_CODE_BACK:string;
+            MARK_CODE_BACK_ANAL:string;
+            MARK_CODE_BACK_IMG:string;
+            MARK_CODE_FRONT:string;
+            MARK_CODE_FRONT_ANAL:string;
+            MARK_CODE_FRONT_IMG:string;
+            PRINT_BACK:string;
+            PRINT_FRONT:string;
+            THICK:string;
+        }[]
+    }
+}
+

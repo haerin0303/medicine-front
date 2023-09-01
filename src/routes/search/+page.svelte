@@ -49,15 +49,15 @@
             <th><input bind:value={value1} placeholder="뒷면 문자열" class="search_bar"></th>
         </tr>
         <tr style="cursor: pointer;">
-            <td class="shape"><img src="{one}" alt="download icon" width="100%" height="100%">원형</td>
-            <td class="shape"><img src="{two}" alt="download icon" width="100%" height="100%">타원형</td>
-            <td class="shape"><img src="{three}" alt="download icon" width="100%" height="100%">장방형</td>
-            <td class="shape"><img src="{four}" alt="download icon" width="100%" height="100%">반원형</td>
-            <td class="shape"><img src="{five}" alt="download icon" width="100%" height="100%">마름모</td>
-            <td class="shape"><img src="{six}" alt="download icon" width="100%" height="100%">삼각형</td>
-            <td class="shape"><img src="{seven}" alt="download icon" width="100%" height="100%">사각형</td>
-            <td class="shape"><img src="{eight}" alt="download icon" width="100%" height="100%">오각형</td>
-            <td class="shape"><img src="{nine}" alt="download icon" width="100%" height="100%">육각형</td>
+            <td class="shape"><img src="{one}" alt="download icon" width= "75%" height="75%"><br>원형</td>
+            <td class="shape"><img src="{two}" alt="download icon" width= "75%" height="75%"><br>타원형</td>
+            <td class="shape"><img src="{three}" alt="download icon" width= "75%" height="75%"><br>장방형</td>
+            <td class="shape"><img src="{four}" alt="download icon" width= "75%" height="75%"><br>반원형</td>
+            <td class="shape"><img src="{five}" alt="download icon" width= "75%" height="75%"><br>마름모</td>
+            <td class="shape"><img src="{six}" alt="download icon" width= "75%" height="75%"><br>삼각형</td>
+            <td class="shape"><img src="{seven}" alt="download icon" width= "75%" height="75%"><br>사각형</td>
+            <td class="shape"><img src="{eight}" alt="download icon" width= "75%" height="75%"><br>오각형</td>
+            <td class="shape"><img src="{nine}" alt="download icon" width= "75%" height="75%"><br>육각형</td>
         </tr>
         <tr class="top">
             {#each arr as v}
